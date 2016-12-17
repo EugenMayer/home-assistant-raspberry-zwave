@@ -7,3 +7,5 @@ services:
     volumes:
       - ../configuration:/config
       - /etc/localtime:/etc/localtime:ro
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"

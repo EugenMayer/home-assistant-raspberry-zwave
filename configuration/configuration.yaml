@@ -49,5 +49,6 @@ sensor:
 zwave:
   # that needs to be adjusted depending on your z-wave controller type.
   # /dev/ttyACM0 for GPIO-ish controller
+  # /dev/ttyUSB0 for the usual USB type controller
   usb_path: /dev/ttyACM0
   config_path: /usr/local/share/python-openzwave/config
