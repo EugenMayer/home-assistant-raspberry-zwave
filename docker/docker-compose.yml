@@ -1,0 +1,9 @@
+version: "2"
+services:
+  hass:
+    container_name: hass
+    image: homeassistant/rpi2-home-assistant
+    network_mode: "host"
+    volumes:
+      - ../configuration:/config
+      - /etc/localtime:/etc/localtime:ro
