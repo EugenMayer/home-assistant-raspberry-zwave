@@ -1,26 +1,27 @@
-Interlude
+WAT?
 ---------
-This project should help you jump-starting your home-assistant (home automation) project based on a
- - raspberry pi (3 in my case, any should do)
- - razberry 2 (z-wave controller, probably any should do)
- - A docker-host enabled distribution ( [hypriot](http://blog.hypriot.com/getting-started-with-docker-and-mac-on-the-raspberry-pi) in my case [raspberrian](https://www.raspberrypi.org/downloads/) should do)
+This project should help you **jump-starting** your **cheap** but still **cool** home-assistant (home automation) project based on a
+ - raspberry pi (v.3 in my case, any should do though)
+ - razberry 2 as z-wave controller (probably any USB/GPIO should do)
+ - A docker-host enabled distribution ( [hypriot](http://blog.hypriot.com/getting-started-with-docker-and-mac-on-the-raspberry-pi) in my case,  [raspberrian](https://www.raspberrypi.org/downloads/) should also do it)
 
  
-Preambel
+Preamble
 --------
 What i will do here is, describe one way i took to get it done, with what i think is best practise. It might be very true, that you have chosen a different path e.g. 
- - choosing the OS
+ - choosing a different OS
  - no using Docker at all
  - not using Z-wave 
  - using a different Z-Wave controller
  - Not using Home Assistant
  
-If you create issues or questions, please ensure you keep the following scope / boarder of this project:
+If you create issues or questions, please ensure you keep the following scope of this project:
  - Z-Wave only ( no matter which controller type )
- - Home-Assistant
- - RaspberryPi only
+ - [Home-Assistant](https://home-assistant.io/) anly
+ - Raspberry Pi only
  
-Be aware, that i will not describe how to do the alternative way e.g. using raspberrian, not using Docker and so on, while this does not mean, this will not work. I will simply not focus on providing this, but feel free to add this sections in the Wiki so we can have a broader base.
+Be aware, that i will not describe how to do the alternative way e.g. using raspberrian, not using Docker and so on, while this does not mean,  it cannot be done - more its a effort thing. 
+I will simply not focus on providing those, but i would be glad to see you add this sections in the wiki and contribute so we can have a broader base for everybody.
 
  
 Preconditions
