@@ -3,9 +3,14 @@ services:
   hass:
     container_name: hass
     image: homeassistant/rpi2-home-assistant
+    # not sure why this is yet needed, we could also forward the ports in question ( 8123 )
     network_mode: "host"
     volumes:
+      # that is were the container will store but also read our configuration from
       - ../configuration:/config
       - /etc/localtime:/etc/localtime:ro
     devices:
+      # that needs to be adjusted depending on your z-wave controller type.
+      # /dev/ttyAMA0 or /dev/ttyACM0 for GPIO-ish controller
+      # /dev/ttyUSB0 for the usual USB type controller
       - "/dev/ttyAMA0:/dev/ttyAMA0"
