@@ -10,15 +10,18 @@ Preamble
 --------
 What i will do here is, describe one way i took to get it done, with what i think is best practise. It might be very true, that you have chosen a different path e.g. 
  - choosing a different OS
- - no using Docker at all
+ - not using Docker at all
  - not using Z-wave 
  - using a different Z-Wave controller
- - Not using Home Assistant
- 
+ - not using Home Assistant
+
+Scope of this project
+--------
+
 If you create issues or questions, please ensure you keep the following scope of this project:
- - Z-Wave only ( no matter which controller type )
- - [Home-Assistant](https://home-assistant.io/) anly
- - Raspberry Pi only
+ - Z-Wave only ( no matter which controller type, be it USB/GPIO )
+ - [Home-Assistant](https://home-assistant.io/) only
+ - Raspberry Pi only (no matter which version)
  
 Be aware, that i will not describe how to do the alternative way e.g. using raspberrian, not using Docker and so on, while this does not mean,  it cannot be done - more its a effort thing. 
 I will simply not focus on providing those, but i would be glad to see you add this sections in the wiki and contribute so we can have a broader base for everybody.
