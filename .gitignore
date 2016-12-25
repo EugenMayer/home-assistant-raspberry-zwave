@@ -1,4 +1,5 @@
 configuration/*
+!configuration/.keep
 !configuration/hass/configuration.yaml
 !configuration/openzwave/options.xml
 .idea
