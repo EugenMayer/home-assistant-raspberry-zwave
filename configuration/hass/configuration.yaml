@@ -1,0 +1,54 @@
+platform: yr
+
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 48.4942
+  longitude: 9.1666
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 358
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  temperature_unit: C
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Berlin
+
+# Show links to resources in log and frontend
+introduction:
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+# Weather Prediction
+sensor:
+
+# Z-Wave is pre-installed in the docker-container already, so we just need to set it up
+zwave:
+  # that needs to be adjusted depending on your z-wave controller type.
+  # /dev/ttyAMA0 or /dev/ttyACM0 for GPIO-ish controller
+  # /dev/ttyUSB0 for the usual USB type controller
+  usb_path: /dev/ttyAMA0
+  config_path: /usr/local/share/python-openzwave/config
