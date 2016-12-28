@@ -1,2 +1,5 @@
 # Uncomment this to add a password (recommended!)
-# api_password: PASSWORD
+#api_password: PASSWORD
+#server_port: 8123
+#ssl_certificate: /etc/letsencrypt/live/example.com/fullchain.pem
+#ssl_key: /etc/letsencrypt/live/example.com/privkey.pem

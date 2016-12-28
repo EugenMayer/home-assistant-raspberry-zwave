@@ -63,3 +63,5 @@ If you done testing an really want to start, run
 ```
 
 Now you can adjust your configuration in production, files are ignored in this repo so you can safely run hass there in customize your installation
+
+Check the [wiki](https://github.com/EugenMayer/home-assistant-raspberry-zwave/wiki) for anything more detailed / advanced.

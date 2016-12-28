@@ -2,37 +2,28 @@ platform: yr
 
 homeassistant: !include custom/homeassistant.yaml
 
-# Show links to resources in log and frontend
-introduction:
-
-# Enables the frontend
-frontend:
-
-# Checks for available updates
+discovery:
+sun:
 updater:
-
-# Enables support for tracking state changes over time.
+frontend:
+conversation:
+logbook:
+zeroconf:
 history:
 
-# View all events in a logbook
-logbook:
-
-# Track the sun
-sun:
-
 ########## INCLUDE all the files for our customization ###############
+# credits to https://github.com/cbulock/home-assistant-configs .. also see his configuration
+# for more examples
 
 zwave: !include custom/zwave.yaml
-automation: !include custom/automation.yaml
-zone: !include custom/zones.yaml
-sensor: !include custom/sensors.yaml
-switch: !include custom/switches.yaml
-device_tracker: !include custom/device_tracker.yaml
-
-# Allows you to issue voice commands from the frontend in enabled browsers
-conversation: !include custom/conversation.yaml
-
-# Discover some devices automatically
-discovery: !include custom/discovery.yaml
-
+automation: !include_dir_list custom/automation
+groups: !include_dir_named groups
+zone: !include_dir_merge_list zones
+scene: !include_dir_merge_list scenes
+sensor: !include_dir_merge_list sensors
 http: !include custom/http.yaml
+
+# activate those only, if you actually put something there!!!!
+
+#notify: !include notify.yaml
+#device_tracker: !include custom/device_tracker.yaml
