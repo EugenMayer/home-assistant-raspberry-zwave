@@ -1,5 +1,6 @@
 # that needs to be adjusted depending on your z-wave controller type.
 # /dev/ttyAMA0 or /dev/ttyACM0 for GPIO-ish controller
 # /dev/ttyUSB0 for the usual USB type controller
+# you need to check your manual probably, but for RPI, those values are rather regular
 usb_path: /dev/ttyAMA0
 config_path: /usr/local/share/python-openzwave/config
