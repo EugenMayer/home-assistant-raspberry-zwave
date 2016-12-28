@@ -47,9 +47,17 @@ Well then its all fairly easy
 
 ```
 git clone https://github.com/EugenMayer/home-assistant-raspberry-zwave hass
-cd hass/example/docker
-docker-compose up
+cd hass
+./run.sh
 ```
 
 Now access your rpi on port 8123 using your browser and welcome to hass :)
 
+If you done testing an really want to start, run
+
+```
+./craete_production_env.sh
+./run.sh
+```
+
+Now you can adjust your configuration in production, files are ignored in this repo so you can safely run hass there in customize your installation
