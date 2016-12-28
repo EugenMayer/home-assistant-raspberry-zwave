@@ -7,7 +7,8 @@ services:
     network_mode: "host"
     volumes:
       # that is were the container will store but also read our configuration from
-      - ../configuration:/config
+      - ../configuration/hass:/config
+      - ../configuration/openzwave/options.xml:/usr/local/share/python-openzwave/config/options.xml
       - /etc/localtime:/etc/localtime:ro
     devices:
       # that needs to be adjusted depending on your z-wave controller type.
