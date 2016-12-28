@@ -5,6 +5,8 @@ This project should help you **jump-starting** your **cheap** but still **cool**
  - razberry 2 as z-wave controller (probably any USB/GPIO should do)
  - A docker-host enabled distribution ( See the [wiki](https://github.com/EugenMayer/home-assistant-raspberry-zwave/wiki/1.-Raspberry-Pi---OS-installation))
  
+It is also designed to be a **boilerplate** for your hass production environment
+ 
 Preamble
 --------
 What i will do here is, describe one way i took to get it done, with what i think is best practise. It might be very true, that you have chosen a different path e.g. 
