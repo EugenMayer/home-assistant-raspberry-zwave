@@ -1,2 +1,6 @@
+example/configuration/*
+example/configuration/deps
+!example/configuration/configuration.yml
+!example/configuration/custom/*
 production/*
 .idea
