@@ -1,4 +1,2 @@
-production/configuration/hass/*
-!example/configuration/hass/configuration.yaml
-!example/configuration/openzwave/options.xml
+production/*
 .idea

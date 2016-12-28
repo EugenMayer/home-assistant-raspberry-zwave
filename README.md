@@ -4,7 +4,6 @@ This project should help you **jump-starting** your **cheap** but still **cool**
  - raspberry pi (v.3 in my case, any should do though)
  - razberry 2 as z-wave controller (probably any USB/GPIO should do)
  - A docker-host enabled distribution ( See the [wiki](https://github.com/EugenMayer/home-assistant-raspberry-zwave/wiki/1.-Raspberry-Pi---OS-installation))
-
  
 Preamble
 --------
@@ -39,4 +38,14 @@ Preconditions
 Lets go!
 -------
 Head over to the [wiki](https://github.com/EugenMayer/home-assistant-raspberry-zwave/wiki) and start with getting on board!
+
+You already have docker and all those things? Then just run
+
+```
+git clone https://github.com/EugenMayer/home-assistant-raspberry-zwave hass
+cd hass/example/docker
+docker-compose up
+```
+
+Now access your rpi on port 8123 and welcome to hass :)
 
