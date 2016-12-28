@@ -39,7 +39,11 @@ Lets go!
 -------
 Head over to the [wiki](https://github.com/EugenMayer/home-assistant-raspberry-zwave/wiki) and start with getting on board!
 
-You already have docker and all those things? Then just run
+Quickstart
+---------
+
+You already have docker and basically know what your are doing?
+Well then its all fairly easy
 
 ```
 git clone https://github.com/EugenMayer/home-assistant-raspberry-zwave hass
@@ -47,5 +51,5 @@ cd hass/example/docker
 docker-compose up
 ```
 
-Now access your rpi on port 8123 and welcome to hass :)
+Now access your rpi on port 8123 using your browser and welcome to hass :)
 
