@@ -22,7 +22,6 @@ sun:
 
 ########## INCLUDE all the files for our customization ###############
 
-# Z-Wave is pre-installed in the docker-container already, so we just need to set it up
 zwave: !include custom/zwave.yaml
 automation: !include custom/automation.yaml
 zone: !include custom/zones.yaml

@@ -1,3 +1,4 @@
+# Z-Wave is pre-installed in the docker-container already, so we just need to set it up
 # that needs to be adjusted depending on your z-wave controller type.
 # /dev/ttyAMA0 or /dev/ttyACM0 for GPIO-ish controller
 # /dev/ttyUSB0 for the usual USB type controller
