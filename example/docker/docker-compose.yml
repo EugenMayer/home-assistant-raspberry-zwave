@@ -1,6 +1,6 @@
 version: "2"
 services:
-  hass:
+  hass_example:
     container_name: hass
     image: homeassistant/rpi2-home-assistant
     # not sure why this is yet needed, we could also forward the ports in question ( 8123 )
